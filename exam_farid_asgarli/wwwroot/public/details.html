@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+
+        <div class="left-pane">
+            <div class="profSection p-4">
+                <div class="profImage">
+                    <img class="avatarImg" src="img/avatar.jpg" alt="">
+                </div>
+                <div class="profTitle">
+                    <h3>
+                        Pasha Life
+                    </h3>
+                    <p>
+                        Pashalife@mail.com
+                    </p>
+                </div>
+            </div>
+            <div class="sideMenu">
+                <ul class="sideList list-unstyled">
+                    <li class="p-3">
+                        <ul class="list-unstyled">
+                            <li class="navActive"><i class="fas fa-columns "></i> Dashboard</li>
+                            <li><i class="fas fa-tasks  "></i> Tasks</li>
+                            <li><i class="far fa-envelope"></i> Email</li>
+                            <li><i class="fas fa-user"></i> Contacts</li>
+                            <li><i class="far fa-comment-alt"></i> Chat</li>
+                            <li><i class="fas fa-briefcase"></i>Deals</li>
+
+                        </ul>
+                    </li>
+                    <hr>
+                    <li class="p-3">
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-cog"></i></i> Settings</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="right-pane">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="notificationPane p-2">
+                        <div class="menuItems d-flex flex-row-reverse">
+                            <div class="profHandler d-inline-block">
+                                <img class="avatarImg" src="img/avatar.jpg" alt="">
+
+                            </div>
+                            <div class="notificationsHandler d-inline-block">
+                                <i class="fas fa-bell"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="backContainer">
+                        <a href="../public/index.html" class="btn">
+                            <i class="fas fa-arrow-left"></i>
+                            Geri Qayıt
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="main">
+                <div class="row">
+                    <div class="col-md-2">
+                        <div id="defaultUser" class="hierarchyProfile">
+                            <div class="profContainer">
+                                <div class="profImage">
+                                    <img class="avatarImg" src="img/avatar.jpg" alt="">
+                                    <span class="statusNumber">
+                                        3A
+                                    </span>
+                                </div>
+                                <div class="profTitle">
+                                    <h3>
+                                        Toghrul Rajab
+                                    </h3>
+                                    <p>
+                                        toghrulrajab@gmail.com
+                                    </p>
+                                    <div class="badges">
+                                        <span class="badge customBadge">2222</span>
+                                        <span class="badge customBadge">2222</span>
+                                        <span class="badge customBadge">2222</span>
+                                        <span class="badge customBadge">2222</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="profInfo d-flex justify-content-center mt-3">
+                                <table>
+                                    <tr>
+                                        <th>
+                                            Struktur
+                                        </th>
+                                        <th>
+                                            Vəzifə
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Marketinq
+                                        </td>
+                                        <td>
+                                            Direktor
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="profButtons mt-2">
+
+                                <button type="button" class="btn btn-outline-primary"><i
+                                        class="far fa-envelope"></i>Mail At</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-10">
+                        <div class="detailsTab mt-4">
+                            <ul class="nav nav-pills mb-3 customTabNav" id="pills-tab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <a class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                                        href="#pills-home" role="tab" aria-controls="pills-home"
+                                        aria-selected="true">Şəxsi İnformasiya</a>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <a class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                                        href="#pills-profile" role="tab" aria-controls="pills-profile"
+                                        aria-selected="false">Struktur Əsasnaməsi</a>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <a class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                                        href="#pills-contact" role="tab" aria-controls="pills-contact"
+                                        aria-selected="false">Vəzifə təlimatı</a>
+                                </li>
+                                <div class="exitIconHolder">
+                                        <a href="../public/index.html" class="btn"><i class="fas fa-times"></i></a>
+                                </div>
+                            </ul>
+                            <div class="tab-content" id="pills-tabContent">
+                                <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                                    aria-labelledby="pills-home-tab">
+                                    <div class="textContainer">
+                                        <h4>Şəxsi İnformasiya</h4>
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                        Ipsum has been the industry's standard
+                                        dummy text ever since the 1500s, when an unknown printer took a galley of type
+                                        and scrambled it to make a type
+                                        specimen book. It has survived not only five centuries, but also the leap into
+                                        electronic typesetting, remaining
+                                        essentially unchanged. It was popularised in the 1960s with the release of
+                                        Letraset sheets containing Lorem
+                                        Ipsum passages, and more recently with desktop publishing software like Aldus
+                                        PageMaker including versLorem
+                                        Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                        has been the industry's
+                                        standard dummy text ever since the 1500s, when an unknown printer took a galley
+                                        of type and scrambled it to make
+                                        a type specimen book. It has survived not only five centuries, but also the leap
+                                        into electronic typesetting,
+                                        remaining essentially unchanged. It was popularised in the 1960s with the
+                                        release of Letraset sheets containing
+                                        Lorem Ipsum passages, and more recently with desktop publishing software like
+                                        Aldus PageMaker including versions
+                                        of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting
+                                        industry. Lorem Ipsum has been
+                                        the industry's standard dummy text ever since the 1500s, when an unknown printer
+                                        took a galley of type and
+                                        scrambled it to make a type specimen book. It has survived not only five
+                                        centuries, but also the leap into
+                                        electronic typesetting, remaining essentially unchanged. It was popularised in
+                                        the 1960s with the release of
+                                        Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                                        publishing software like Aldus
+                                        PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of
+                                        the printing and typesetting
+                                        industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+                                        1500s, when an unknown printer
+                                        took a galley of type and scrambled it to make a type specimen book. It has
+                                        survived not only five centuries,
+                                        but also the leap into electronic typesetting, remaining essentially unchanged.
+                                        It was popularised in the 1960s
+                                        with the release of Letraset sheets containing Lorem Ipsum passages, and more
+                                        recently with desktop publishing
+                                        software like Aldus PageMaker including versions of Lorem Ipsum. ions of Lorem
+                                        Ipsum.
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="pills-profile" role="tabpanel"
+                                    aria-labelledby="pills-profile-tab">
+                                    <div class="textContainer">
+                                        <h4>Struktur Əsasnaməsi</h4>
+
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                        Ipsum has been the industry's standard
+                                        dummy text ever since the 1500s, when an unknown printer took a galley of type
+                                        and scrambled it to make a type
+                                        specimen book. It has survived not only five centuries, but also the leap into
+                                        electronic typesetting, remaining
+                                        essentially unchanged. It was popularised in the 1960s with the release of
+                                        Letraset sheets containing Lorem
+                                        Ipsum passages, and more recently with desktop publishing software like Aldus
+                                        PageMaker including versLorem
+                                        Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                        has been the industry's
+                                        standard dummy text ever since the 1500s, when an unknown printer took a galley
+                                        of type and scrambled it to make
+                                        a type specimen book. It has survived not only five centuries, but also the leap
+                                        into electronic typesetting,
+                                        remaining essentially unchanged. It was popularised in the 1960s with the
+                                        release of Letraset sheets containing
+                                        Lorem Ipsum passages, and more recently with desktop publishing software like
+                                        Aldus PageMaker including versions
+                                        of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting
+                                        industry. Lorem Ipsum has been
+                                        the industry's standard dummy text ever since the 1500s, when an unknown printer
+                                        took a galley of type and
+                                        scrambled it to make a type specimen book. It has survived not only five
+                                        centuries, but also the leap into
+                                        electronic typesetting, remaining essentially unchanged. It was popularised in
+                                        the 1960s with the release of
+                                        Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                                        publishing software like Aldus
+                                        PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of
+                                        the printing and typesetting
+                                        industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+                                        1500s, when an unknown printer
+                                        took a galley of type and scrambled it to make a type specimen book. It has
+                                        survived not only five centuries,
+                                        but also the leap into electronic typesetting, remaining essentially unchanged.
+                                        It was popularised in the 1960s
+                                        with the release of Letraset sheets containing Lorem Ipsum passages, and more
+                                        recently with desktop publishing
+                                        software like Aldus PageMaker including versions of Lorem Ipsum. ions of Lorem
+                                        Ipsum.
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="pills-contact" role="tabpanel"
+                                    aria-labelledby="pills-contact-tab">
+                                    <div class="textContainer">
+                                        <h4>Vəzifə təlimatı</h4>
+
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                        Ipsum has been the industry's standard
+                                        dummy text ever since the 1500s, when an unknown printer took a galley of type
+                                        and scrambled it to make a type
+                                        specimen book. It has survived not only five centuries, but also the leap into
+                                        electronic typesetting, remaining
+                                        essentially unchanged. It was popularised in the 1960s with the release of
+                                        Letraset sheets containing Lorem
+                                        Ipsum passages, and more recently with desktop publishing software like Aldus
+                                        PageMaker including versLorem
+                                        Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                        has been the industry's
+                                        standard dummy text ever since the 1500s, when an unknown printer took a galley
+                                        of type and scrambled it to make
+                                        a type specimen book. It has survived not only five centuries, but also the leap
+                                        into electronic typesetting,
+                                        remaining essentially unchanged. It was popularised in the 1960s with the
+                                        release of Letraset sheets containing
+                                        Lorem Ipsum passages, and more recently with desktop publishing software like
+                                        Aldus PageMaker including versions
+                                        of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting
+                                        industry. Lorem Ipsum has been
+                                        the industry's standard dummy text ever since the 1500s, when an unknown printer
+                                        took a galley of type and
+                                        scrambled it to make a type specimen book. It has survived not only five
+                                        centuries, but also the leap into
+                                        electronic typesetting, remaining essentially unchanged. It was popularised in
+                                        the 1960s with the release of
+                                        Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                                        publishing software like Aldus
+                                        PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of
+                                        the printing and typesetting
+                                        industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+                                        1500s, when an unknown printer
+                                        took a galley of type and scrambled it to make a type specimen book. It has
+                                        survived not only five centuries,
+                                        but also the leap into electronic typesetting, remaining essentially unchanged.
+                                        It was popularised in the 1960s
+                                        with the release of Letraset sheets containing Lorem Ipsum passages, and more
+                                        recently with desktop publishing
+                                        software like Aldus PageMaker including versions of Lorem Ipsum. ions of Lorem
+                                        Ipsum.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+</body>
+<!-- Scripts -->
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"></script>
+<!-- <script src="https://unpkg.com/feather-icons"></script> -->
+<script src="https://kit.fontawesome.com/a421c20c4d.js" crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
+
+</html>

@@ -1,0 +1,699 @@
+body .right-pane .main .hierarchyProfile .badges .customBadge, body .parentButton .badges .customBadge, body .middleButton .badges .customBadge {
+  font-size: 7.13px;
+  font-weight: 700;
+}
+
+body .right-pane .main .hierarchyProfile:nth-child(2) span, body .right-pane .main .hierarchyProfile:nth-child(3) span, body .right-pane .main .hierarchyProfile:nth-child(4) span, body .right-pane .main .hierarchyProfile:nth-child(5) span {
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #fdfdfd;
+}
+
+body {
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 100%;
+  font-family: "Roboto", sans-serif;
+}
+
+body hr {
+  color: #ebeff2;
+  opacity: 100%;
+  height: 1.5px;
+  margin: 0;
+}
+
+body .container-fluid {
+  padding-left: 0;
+}
+
+body .left-pane {
+  position: fixed;
+  width: 256px;
+  height: 100%;
+  overflow: hidden;
+  z-index: 1;
+  -webkit-box-shadow: 6px 0px 18px rgba(0, 0, 0, 0.06);
+          box-shadow: 6px 0px 18px rgba(0, 0, 0, 0.06);
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+body .left-pane .profSection {
+  position: relative;
+  margin-top: 80px;
+}
+
+body .left-pane .profSection .profTitle {
+  position: absolute;
+  bottom: 20px;
+  left: 100px;
+}
+
+body .left-pane .profSection .profTitle h3 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.41px;
+}
+
+body .left-pane .profSection .profTitle p {
+  font-size: 11px;
+  line-height: 12.89px;
+  font-weight: 500;
+  color: #90a0b7;
+}
+
+body .left-pane .profSection .profImage {
+  width: 60px;
+  height: 60px;
+}
+
+body .left-pane .profSection .profImage img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+body .left-pane .sideList .list-unstyled li {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15.23px;
+  color: #334d6e;
+}
+
+body .left-pane .sideList .list-unstyled li i {
+  font-size: 15px;
+  margin: 15px;
+  color: #c2cfe0;
+}
+
+body .right-pane {
+  height: 100vh;
+  margin-left: 306px;
+}
+
+body .right-pane .main {
+  margin-top: 71px;
+}
+
+body .right-pane .main .hierarchyContainer {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+body .right-pane .main .hierarchyProfile {
+  padding: 15px;
+  width: 242px;
+  height: 210px;
+  background: #ffffff;
+  -webkit-box-shadow: 0.84503px 2.53508px 10.1403px rgba(0, 0, 0, 0.03);
+          box-shadow: 0.84503px 2.53508px 10.1403px rgba(0, 0, 0, 0.03);
+  border-radius: 6.76021px;
+  position: absolute;
+}
+
+body .right-pane .main .hierarchyProfile:nth-child(2)::after {
+  position: absolute;
+  right: 55px;
+  top: -50px;
+  width: 119px;
+  height: 3px;
+  content: "";
+  overflow: hidden;
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(40%, #ccc), color-stop(0, rgba(255, 255, 255, 0)));
+  background-image: linear-gradient(to right, #ccc 40%, rgba(255, 255, 255, 0) 0);
+  background-size: 30px 1px;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+body .right-pane .main .hierarchyProfile:nth-child(3)::after {
+  position: absolute;
+  right: 55px;
+  top: -50px;
+  width: 119px;
+  height: 3px;
+  content: "";
+  overflow: hidden;
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(40%, #ccc), color-stop(0, rgba(255, 255, 255, 0)));
+  background-image: linear-gradient(to right, #ccc 40%, rgba(255, 255, 255, 0) 0);
+  background-size: 30px 1px;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+body .right-pane .main .hierarchyProfile:nth-child(4)::after {
+  position: absolute;
+  right: 92px;
+  top: -35px;
+  width: 48px;
+  height: 3px;
+  content: "";
+  overflow: hidden;
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(40%, #ccc), color-stop(0, rgba(255, 255, 255, 0)));
+  background-image: linear-gradient(to right, #ccc 40%, rgba(255, 255, 255, 0) 0);
+  background-size: 30px 1px;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+body .right-pane .main .hierarchyProfile:nth-child(5)::after {
+  position: absolute;
+  right: 92px;
+  top: -35px;
+  width: 48px;
+  height: 3px;
+  content: "";
+  overflow: hidden;
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(40%, #ccc), color-stop(0, rgba(255, 255, 255, 0)));
+  background-image: linear-gradient(to right, #ccc 40%, rgba(255, 255, 255, 0) 0);
+  background-size: 30px 1px;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+body .right-pane .main .hierarchyProfile .profInfo table {
+  background-color: #f7fcff;
+  width: 180px;
+  border-radius: 5.07016px;
+  position: relative;
+}
+
+body .right-pane .main .hierarchyProfile .profInfo table::after {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 25px;
+  background-color: #9ba5b7;
+  top: 15px;
+  left: 95px;
+}
+
+body .right-pane .main .hierarchyProfile .profInfo table tbody th {
+  font-size: 11px;
+  line-height: 12.9px;
+  font-weight: 500;
+  padding: 10px 15px;
+  text-align: center;
+}
+
+body .right-pane .main .hierarchyProfile .profInfo table tbody td {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14px;
+  color: #9ba5b7;
+  padding: 10px 15px;
+  padding-top: 0px !important;
+  text-align: center;
+}
+
+body .right-pane .main .hierarchyProfile .profButtons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body .right-pane .main .hierarchyProfile .profButtons button {
+  font-size: 12px;
+  font-weight: 500;
+  padding: 5px 12px;
+  width: 82px;
+  color: #507ff9;
+  border-color: #e9e9e9;
+  border-radius: 3px;
+}
+
+body .right-pane .main .hierarchyProfile .profButtons button i {
+  margin-right: 5px;
+}
+
+body .right-pane .main .hierarchyProfile .profButtons button:hover {
+  background-color: #f0f4ff;
+  border-color: #f0f4ff;
+}
+
+body .right-pane .main .hierarchyProfile .profButtons a {
+  font-size: 12px;
+  font-weight: 500;
+  padding: 5px 12px;
+  width: 82px;
+  color: #507ff9;
+  border-color: #e9e9e9;
+  border-radius: 3px;
+}
+
+body .right-pane .main .hierarchyProfile .profButtons a i {
+  margin-right: 5px;
+}
+
+body .right-pane .main .hierarchyProfile .profButtons a:hover {
+  background-color: #f0f4ff;
+  border-color: #f0f4ff;
+}
+
+body .right-pane .main .hierarchyProfile .profContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .right-pane .main .hierarchyProfile .profImage {
+  height: 63px;
+  width: 63px;
+  margin-top: 5px;
+  position: relative;
+}
+
+body .right-pane .main .hierarchyProfile .profImage .statusNumber {
+  position: absolute;
+  color: #637df1;
+  font-weight: 700;
+  line-height: 10.5px;
+  font-size: 9px;
+  background-color: #f4f5f9;
+  border: 2px solid white;
+  border-radius: 50%;
+  padding: 5px;
+  left: -9px;
+  top: -2px;
+}
+
+body .right-pane .main .hierarchyProfile .profImage img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+body .right-pane .main .hierarchyProfile .profTitle {
+  margin-top: 12px;
+}
+
+body .right-pane .main .hierarchyProfile .profTitle h3 {
+  color: #6f737c;
+  font-size: 15px;
+  line-height: 17px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+body .right-pane .main .hierarchyProfile .profTitle p {
+  color: #6f737c;
+  font-size: 11px;
+  line-height: 12.9px;
+  font-weight: 400;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+body .right-pane .main .hierarchyProfile .badges {
+  margin-left: auto;
+}
+
+body .right-pane .main .hierarchyProfile .badges .customBadge {
+  font-size: 9.3px !important;
+}
+
+body .right-pane .main .hierarchyProfile .badges .customBadge:nth-child(1) {
+  color: #826cfc;
+  background-color: #f2f0fe;
+}
+
+body .right-pane .main .hierarchyProfile .badges .customBadge:nth-child(2) {
+  color: #0085ff;
+  background-color: #c0e8ff;
+}
+
+body .right-pane .main .hierarchyProfile .badges .customBadge:nth-child(3) {
+  color: #54b806;
+  background-color: #d7ffe2;
+}
+
+body .right-pane .main .hierarchyProfile .badges .customBadge:nth-child(4) {
+  color: #d4a707;
+  background-color: #fff9c7;
+}
+
+body .right-pane .notificationPane .menuItems .profHandler {
+  width: 40px;
+  height: 40px;
+}
+
+body .right-pane .notificationPane .menuItems .profHandler img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+body .right-pane .notificationPane .notificationsHandler {
+  margin-right: 25px;
+  margin-top: 10px;
+}
+
+body .right-pane .notificationPane .notificationsHandler i {
+  font-size: 21px;
+  color: #cacccf;
+}
+
+body .right-pane .notificationPane .notificationsHandler i::after {
+  content: "";
+  height: 10px;
+  width: 10px;
+  background-color: red;
+  border: 2px solid white;
+  position: absolute;
+  border-radius: 50%;
+  top: 15px;
+  right: 81px;
+}
+
+body .right-pane .accordions {
+  background: #ffffff;
+  -webkit-box-shadow: 0.64831px 1.94492px 7.77966px rgba(0, 0, 0, 0.03);
+          box-shadow: 0.64831px 1.94492px 7.77966px rgba(0, 0, 0, 0.03);
+  border-radius: 11.6695px;
+}
+
+body .right-pane .accordions .accordionTitle {
+  margin-left: 20px;
+  padding-top: 20px;
+}
+
+body .parentButton {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+body .parentButton .badges {
+  margin-left: auto;
+}
+
+body .parentButton .badges span {
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+body .parentButton .badges .customBadge:nth-child(1) {
+  color: #826cfc;
+  background-color: #f2f0fe;
+}
+
+body .parentButton .badges .customBadge:nth-child(2) {
+  color: #0085ff;
+  background-color: #c0e8ff;
+}
+
+body .parentButton .badges .customBadge:nth-child(3) {
+  color: #54b806;
+  background-color: #d7ffe2;
+}
+
+body .parentButton .badges .customBadge:nth-child(4) {
+  color: #d4a707;
+  background-color: #fff9c7;
+}
+
+body .middleButton {
+  font-size: 12px;
+  font-weight: 400;
+  padding: 5px;
+  padding-left: 25px;
+}
+
+body .middleButton::after {
+  display: none;
+}
+
+body .middleButton::before {
+  content: "";
+  width: 5px;
+  height: 5px;
+  position: absolute;
+  background-color: black;
+  border-radius: 50%;
+  left: 10px;
+}
+
+body .middleButton .badges {
+  margin-left: auto;
+  padding-right: 25px;
+}
+
+body .middleButton .badges .customBadge:nth-child(1) {
+  color: #54b806;
+}
+
+body .middleButton .badges .customBadge:nth-child(2) {
+  color: #d4a707;
+}
+
+body .customInput {
+  width: 236px;
+  height: 45px;
+  border: 1px solid #e3e8ef;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 7px;
+  font-size: 15px !important;
+}
+
+body .formContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body .formContainer button {
+  width: 128px;
+  height: 45px;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(-144.44%, #00c6ff), color-stop(233.33%, #0072ff));
+  background: linear-gradient(180deg, #00c6ff -144.44%, #0072ff 233.33%);
+  color: white !important;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+body .formContainer button:hover {
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(-144.44%, #1088aa), color-stop(233.33%, #0072ff)) !important;
+  background: linear-gradient(180deg, #1088aa -144.44%, #0072ff 233.33%) !important;
+}
+
+body .customMargin {
+  margin-left: 120px;
+}
+
+body .customMargin:last-child {
+  margin-left: auto !important;
+  margin-right: 15px;
+}
+
+body .navActive {
+  color: #4f9bff !important;
+}
+
+body .navActive i {
+  color: #4f9bff !important;
+}
+
+body .sideList ul li {
+  cursor: pointer;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+body .sideList ul li i {
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+body .sideList ul li:hover {
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  color: #4f9bff !important;
+}
+
+body .sideList ul li:hover i {
+  color: #4f9bff !important;
+}
+
+body .accordion-collapse {
+  border-bottom: none;
+}
+
+body .accordion-button:not(.collapsed) {
+  background-color: transparent;
+}
+
+body .accordion-button:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+body .accordion-body span {
+  font-size: 11px;
+  font-weight: 400;
+  padding-left: 10px;
+}
+
+body #currentUser {
+  top: 50px;
+}
+
+body #defaultUser {
+  top: 230px;
+}
+
+body .backContainer {
+  margin-top: 25px;
+}
+
+body .backContainer button {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+body .backContainer i {
+  margin-top: 10px;
+  margin-right: 20px;
+  padding: 10px;
+  background-color: #96c1f9;
+  border-radius: 5px;
+  color: white;
+}
+
+body .customTabNav {
+  border-bottom: 1px solid #ebebeb;
+  padding: 0 40px;
+  position: relative;
+}
+
+body .customTabNav .nav-item {
+  padding: 0 80px;
+}
+
+body .customTabNav .nav-item:nth-child(1) {
+  padding-left: 0px !important;
+}
+
+body .nav-link {
+  color: #a5abc2;
+  font-size: 15px;
+  line-height: 17px;
+  padding: 20px 0;
+}
+
+body .nav-link.active {
+  background-color: transparent !important;
+  border-bottom: 3px solid #507ff9;
+  color: #507ff9 !important;
+  border-radius: 0;
+}
+
+body .detailsTab {
+  background: #ffffff;
+  -webkit-box-shadow: 0.84503px 2.53508px 10.1403px rgba(0, 0, 0, 0.03);
+          box-shadow: 0.84503px 2.53508px 10.1403px rgba(0, 0, 0, 0.03);
+  border-radius: 6.76021px;
+}
+
+body #pills-tabContent {
+  padding: 20px 20px;
+}
+
+body .textContainer {
+  background-color: #fcfcff;
+  padding: 40px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.1em;
+  text-align: left;
+  padding-bottom: 90px;
+}
+
+body .textContainer h4 {
+  padding: 30px 0;
+  color: #6378c8;
+}
+
+body .exitIconHolder {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+}
+
+body .exitIconHolder i {
+  font-size: 22px;
+}
+
+body .form-control {
+  border-radius: 7px !important;
+}
+
+body .form-control:focus {
+  border: 1px solid #4f9bff !important;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 7px !important;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+body .dashedLine::after {
+  position: absolute;
+  right: 260px;
+  top: 100px;
+  width: 160px;
+  height: 3px;
+  content: "";
+  overflow: hidden;
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(40%, #ccc), color-stop(0, rgba(255, 255, 255, 0)));
+  background-image: linear-gradient(to right, #ccc 40%, rgba(255, 255, 255, 0) 0);
+  background-size: 30px 1px;
+}
+
+body .dashedLine::before {
+  position: absolute;
+  right: -170px;
+  top: 100px;
+  width: 160px;
+  height: 3px;
+  content: "";
+  overflow: hidden;
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(40%, #ccc), color-stop(0, rgba(255, 255, 255, 0)));
+  background-image: linear-gradient(to right, #ccc 40%, rgba(255, 255, 255, 0) 0);
+  background-size: 30px 1px;
+}
+
+body .mainProfDashedLine {
+  position: absolute;
+  right: 85px;
+  top: -20px;
+  width: 59px;
+  height: 3px;
+  overflow: hidden;
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(40%, #ccc), color-stop(0, rgba(255, 255, 255, 0)));
+  background-image: linear-gradient(to right, #ccc 40%, rgba(255, 255, 255, 0) 0);
+  background-size: 30px 1px;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+/*# sourceMappingURL=style.css.map */
